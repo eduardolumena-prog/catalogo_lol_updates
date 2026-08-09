@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "channel": "production",
+  "catalogVersion": "5.2.0-global-final",
+  "catalogDate": "2026.08.13",
+  "recordCount": 503,
+  "manifestUrl": "https://raw.githubusercontent.com/eduardolumena-prog/catalogo_lol_updates/main/manifest.json",
+  "catalogUrl": "https://raw.githubusercontent.com/eduardolumena-prog/catalogo_lol_updates/main/catalog.v5.2.0-global-final.json",
+  "downloadUrl": "https://raw.githubusercontent.com/eduardolumena-prog/catalogo_lol_updates/main/catalog_master_v5.2.0-global-final.zip",
+  "packageUrl": "https://raw.githubusercontent.com/eduardolumena-prog/catalogo_lol_updates/main/catalog_master_v5.2.0-global-final.zip",
+  "zipUrl": "https://raw.githubusercontent.com/eduardolumena-prog/catalogo_lol_updates/main/catalog_master_v5.2.0-global-final.zip",
+  "catalogFile": "catalog.v5.2.0-global-final.json",
+  "packageFile": "catalog_master_v5.2.0-global-final.zip",
+  "sha256": "0e0655f32c58c647afbff7a2b701a00d160bbbd1d2678b6845bea3d77670d720",
+  "catalogSha256": "0e0655f32c58c647afbff7a2b701a00d160bbbd1d2678b6845bea3d77670d720",
+  "packageSha256": "fafb6269b1ddaa9cef33b649b4946d54956883f86d4539dab9490fa28c99cece",
+  "zipSha256": "fafb6269b1ddaa9cef33b649b4946d54956883f86d4539dab9490fa28c99cece",
+  "recordCountExpected": 503,
+  "minimumInstalledCatalogVersion": "0.0.0",
+  "bootstrapAllowed": true,
+  "generatedAt": "2026-08-09T13:54:13.252942+00:00",
+  "notes": "Catalogo Maestro Global de Mis Munecas L.O.L. Surprise!"
+}
