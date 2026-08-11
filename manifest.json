@@ -1,10 +1,10 @@
 {
   "format": "lol-catalog-update-v1",
   "catalogVersion": "5.2.5-global-final",
-  "generatedAt": "2026-08-11T04:02:50.143633+00:00",
+  "generatedAt": "2026-08-11T04:03:42.404246+00:00",
   "catalogFile": "catalog.v5.2.5-global-final.json",
   "catalogPath": "catalog.v5.2.5-global-final.json",
-  "sha256": "41cbf910f7bffd271811d009432cf406796a4b15b0b23ffcec357f5b5c1df677",
+  "sha256": "b7ba00b4974a6d07f1b399594ec78f68129718166388401c99049e20f98e6a60",
   "recordCount": 503,
   "baseVersion": "5.1.0-global",
   "baseCount": 472,
@@ -30,11 +30,11 @@
   "bootstrapAllowed": true,
   "minimumInstalledCatalogVersion": "0.0.0",
   "schemaVersion": 2,
-  "publishedAt": "2026-08-11T04:02:50.143633+00:00",
+  "publishedAt": "2026-08-11T04:03:42.404246+00:00",
   "notes": "Catálogo Maestro Global 5.2.5: 503 registros; rarezas verificadas de 21 personajes de Series 1.",
   "recordCountExpected": 503,
-  "packageSha256": "41cbf910f7bffd271811d009432cf406796a4b15b0b23ffcec357f5b5c1df677",
-  "zipSha256": "41cbf910f7bffd271811d009432cf406796a4b15b0b23ffcec357f5b5c1df677",
-  "catalogSha256": "bae4ef7ce590413079bfb3c903dcae325b90584f9d3ce5be5baffac4994b056a",
-  "runtimeCatalogSha256": "bae4ef7ce590413079bfb3c903dcae325b90584f9d3ce5be5baffac4994b056a"
+  "packageSha256": "b7ba00b4974a6d07f1b399594ec78f68129718166388401c99049e20f98e6a60",
+  "zipSha256": "b7ba00b4974a6d07f1b399594ec78f68129718166388401c99049e20f98e6a60",
+  "catalogSha256": "03151140cad8546fd802aa142df547cf7da86bc213d4ee2045582bfbdb443485",
+  "runtimeCatalogSha256": "03151140cad8546fd802aa142df547cf7da86bc213d4ee2045582bfbdb443485"
 }
