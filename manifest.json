@@ -1,10 +1,10 @@
 {
   "format": "lol-catalog-update-v1",
   "catalogVersion": "5.2.6-global-final",
-  "generatedAt": "2026-08-12T17:02:15+00:00",
+  "generatedAt": "2026-08-12T21:20:34+00:00",
   "catalogFile": "catalog.5.2.6-global-final.json",
   "catalogPath": "catalog.5.2.6-global-final.json",
-  "sha256": "965443478617874a498837289ce3529af633202371e3886963e4e87cb46a6807",
+  "sha256": "321261cc258f792468b7c302696b18f381d4b6f310f18327eaef2ec3c759af39",
   "recordCount": 706,
   "baseVersion": "5.2.5-global-final",
   "baseCount": 503,
@@ -30,11 +30,11 @@
   "bootstrapAllowed": true,
   "minimumInstalledCatalogVersion": "0.0.0",
   "schemaVersion": 2,
-  "publishedAt": "2026-08-12T17:02:15+00:00",
-  "notes": "Catálogo Maestro Global 5.2.6: 706 registros; 503 registros de producción preservados, 203 registros nuevos y corrección controlada de 2-069 Lil Famine a Lil Fanime.",
+  "publishedAt": "2026-08-12T21:20:34+00:00",
+  "notes": "Catálogo Maestro Global 5.2.6: 706 registros; hotfix de compatibilidad del payload: format corregido a lol-catalog-update-v1. Sin cambios en los 706 registros.",
   "recordCountExpected": 706,
-  "packageSha256": "965443478617874a498837289ce3529af633202371e3886963e4e87cb46a6807",
-  "zipSha256": "965443478617874a498837289ce3529af633202371e3886963e4e87cb46a6807",
-  "catalogSha256": "7e5e7ab1c531268eb73d5f6e5b09dbae92b59ccea9ddbebc24586b737c75dc2b",
-  "runtimeCatalogSha256": "7e5e7ab1c531268eb73d5f6e5b09dbae92b59ccea9ddbebc24586b737c75dc2b"
+  "packageSha256": "321261cc258f792468b7c302696b18f381d4b6f310f18327eaef2ec3c759af39",
+  "zipSha256": "321261cc258f792468b7c302696b18f381d4b6f310f18327eaef2ec3c759af39",
+  "catalogSha256": "827b10d691e377dd7576dc1b9aa503ed22d31459aa42459798d250eb857f48c8",
+  "runtimeCatalogSha256": "827b10d691e377dd7576dc1b9aa503ed22d31459aa42459798d250eb857f48c8"
 }
