@@ -1,0 +1,53 @@
+{
+  "format": "lol-catalog-stable-certification-v1",
+  "catalogVersion": "5.2.9-global-final",
+  "recordCount": 713,
+  "baseVersion": "5.2.8-global-final",
+  "baseCount": 713,
+  "newRecords": 0,
+  "canonicalUnique": 713,
+  "officialCodeUnique": 647,
+  "canonicalOnly": 66,
+  "recordTypeCoverage": {
+    "present": 713,
+    "missing": 0
+  },
+  "clubCoverage": {
+    "present": 573,
+    "missing": 140
+  },
+  "rarityCoverage": {
+    "present": 645,
+    "missing": 68
+  },
+  "releaseYearCoverage": {
+    "present": 278,
+    "missing": 435
+  },
+  "deltaFromBase": {
+    "modifiedRecords": 46,
+    "recordTypeChanges": 41,
+    "releaseYearChanges": 5,
+    "newRecords": 0,
+    "deletedRecords": 0
+  },
+  "jsonSha256": "7965aff8734c640b56af7a101c94fc9bf642197c242ea17f0e10f449406ab4ec",
+  "zipSha256": "de671c85d32d529e138671f9b131ed429aa6835a5126b9f61b7b53f92bf7eb05",
+  "productionCommit": "48b610fe1a0f76cd98eac6be916e44577b3b5901",
+  "stableTag": "catalog-v5.2.9-global-final",
+  "phoneTest": {
+    "previousCatalogVersion": "5.2.8-global-final",
+    "installedCatalogVersion": "5.2.9-global-final",
+    "recordsBefore": 713,
+    "recordsAfter": 713,
+    "manualUpdateDetection": "PASS",
+    "download": "PASS",
+    "installation": "PASS",
+    "automaticStartupDetection": "NOT_OBSERVED",
+    "automaticStartupObservation": "Current application throttles automatic checks to at most once every 12 hours.",
+    "personalCollectionCount": 0,
+    "personalCollectionPreservation": "NOT_APPLICABLE_EMPTY_COLLECTION"
+  },
+  "status": "CLOSED_AND_STABLE",
+  "immutableAfterClosure": true
+}
