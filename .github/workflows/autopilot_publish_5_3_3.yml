@@ -1,0 +1,42 @@
+name: Autopilot publish catalog 5.3.3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/autopilot_publish_5_3_3.py'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Build and validate app-compatible catalog publication
+        run: python tools/autopilot_publish_5_3_3.py
+
+      - name: Commit controlled publication
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            packages/5.3.3-global-final/catalog.json \
+            packages/5.3.3-global-final/catalog_package.zip \
+            catalog.5.3.3-global-final.json \
+            manifest.json \
+            audit/AUTOPILOT_5_3_3_AUDIT.json
+          git diff --cached --check
+          git commit -m "Catalog 5.3.3-global-final: app-compatible 713-record package and $teezy image cleanup"
+          git push origin HEAD:main
