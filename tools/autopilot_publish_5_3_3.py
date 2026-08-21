@@ -181,7 +181,6 @@ def main() -> None:
     doll_tags = baseline.get("dollTags", []) if isinstance(baseline.get("dollTags", []), list) else []
     replace_images = baseline.get("replaceImages", []) if isinstance(baseline.get("replaceImages", []), list) else []
 
-    # Do not retain any baseline replacement for $teezy; explicitly clear all official gallery images.
     cleaned_replacements = []
     for item in replace_images:
         if not isinstance(item, dict):
@@ -310,3 +309,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# trigger diagnostic-enabled autopilot run
