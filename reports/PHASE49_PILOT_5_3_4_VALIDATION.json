@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "version": "5.3.4-global-final",
+  "recordCount": 713,
+  "canonicalIdCount": 713,
+  "pilotCodes": [
+    "WD-001",
+    "WD-002",
+    "WD-003",
+    "WD-004",
+    "WD-005",
+    "WD-006",
+    "WD-007",
+    "WD-008",
+    "WD-009",
+    "WD-010",
+    "WD-011",
+    "WD-012"
+  ],
+  "guideRenderCount": 12,
+  "catalogSha256": "7ec4c198fa9601511456c1032042a4701814bf5e866085c7eb7d63fdd5a4dae9",
+  "packageSha256": "6bf985e843d050e6879543f4d9adc4ce92d95fdb88fee044338bd6111cf66f19",
+  "imageSha256": {
+    "WD-001": "4ca641a298f8913f9211e8c91771cef6e2050e64680b6684ac41ec399204a2bd",
+    "WD-002": "8fb9ca14d891f7041e473ae3dbdb4f73cfd61edd5d7fd3fac17cd5c46b1142d1",
+    "WD-003": "4679be1985795e845bb135ce636e3fa2bbc4605c8dbe15c41d67822fef5cd968",
+    "WD-004": "e8b15187f101c8a0583e05a6a5def0d85ab1f4b4d2db86bb052c8eed6d519670",
+    "WD-005": "be35c87dedc7b336ce952ac93094a5138657ce100c6fb1f7d659a968334ff174",
+    "WD-006": "20e52796ff4eaca1ba8c9c8d787fdb3751be4462527b07f6d515dfa81bf05da7",
+    "WD-007": "a574e25b534fd0e7a38e6517950fc38ff989ab3fa8154273220afcf3b107ebcf",
+    "WD-008": "00ab570a012a120ac3cd59bc81982868c51f1f69ce590712a74f69dfbf4c9ca7",
+    "WD-009": "3bd1ae1c3ecb4afe577f71f772316f310573a7836e4e4bf0c14b604ab323438d",
+    "WD-010": "fe544d27048e16bd04ee78fb38cd94cc414162f45580ebfc6842cbf9fc014887",
+    "WD-011": "6448f970fda4b8bd0895532bbd08ac8387f8da7c0e4af3f3a2af5d6eb3c4fbce",
+    "WD-012": "0f1a90ffccaa03b16f9b7b16a38ede48af940d82f2ace503b96468ac79f3e8f9"
+  },
+  "identityGuessing": false
+}
