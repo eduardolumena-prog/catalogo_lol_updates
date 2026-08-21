@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/runner/work/catalogo_lol_updates/catalogo_lol_updates/tools/autopilot_publish_5_3_3.py", line 311, in <module>
+    main()
+    ~~~~^^
+  File "/home/runner/work/catalogo_lol_updates/catalogo_lol_updates/tools/autopilot_publish_5_3_3.py", line 109, in main
+    raise RuntimeError("Source catalog does not contain master_records/masterRecords/records list")
+RuntimeError: Source catalog does not contain master_records/masterRecords/records list
