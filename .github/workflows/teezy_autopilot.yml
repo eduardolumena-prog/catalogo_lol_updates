@@ -1,0 +1,76 @@
+name: TEEZY Correctible Autopilot
+
+on:
+  push:
+    paths:
+      - '.github/workflows/teezy_autopilot.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit-teezy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Audit current remote release and $teezy
+        shell: python
+        run: |
+          import json, hashlib, zipfile, pathlib, sys
+          root=pathlib.Path('.')
+          m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          print('MANIFEST_VERSION=',m.get('catalogVersion'))
+          print('MANIFEST_RECORDS=',m.get('recordCount'))
+          assert int(m.get('recordCount',0))==713, 'recordCount must remain 713'
+          pkg=root/m['packageFile']
+          assert pkg.exists(), f'package missing: {pkg}'
+          sha=hashlib.sha256(pkg.read_bytes()).hexdigest()
+          print('PACKAGE_SHA256=',sha)
+          print('PACKAGE_SHA_MATCH=',sha==m.get('sha256'))
+          assert sha==m.get('sha256'), 'package SHA mismatch'
+          with zipfile.ZipFile(pkg) as z:
+            names=z.namelist(); print('ZIP_FILES=',names)
+            assert 'catalog.json' in names, 'catalog.json missing in ZIP'
+            payload=json.loads(z.read('catalog.json'))
+          print('PAYLOAD_VERSION=',payload.get('catalogVersion'))
+          assert payload.get('catalogVersion')==m.get('catalogVersion'), 'payload/manifest version mismatch'
+          dolls=payload.get('dolls') or payload.get('records') or []
+          print('PAYLOAD_DOLLS=',len(dolls))
+          hits=[]
+          for d in dolls:
+            code=str(d.get('officialCode') or '')
+            name=str(d.get('name') or '')
+            if code.upper()=='BOYS-311' or name.casefold()=='$teezy'.casefold(): hits.append(d)
+          print('TEEZY_MATCHES=',len(hits))
+          for d in hits:
+            safe={k:d.get(k) for k in ['canonicalId','officialCode','name','collectionCode','seriesCode','releaseYear','rarity','club','officialImage','sourceRef','revision']}
+            print('TEEZY_RECORD=',json.dumps(safe,ensure_ascii=False,sort_keys=True))
+          image_refs=[]
+          for r in payload.get('replaceImages') or []:
+            if str(r.get('dollCode') or '').upper()=='BOYS-311': image_refs.append(r)
+          print('TEEZY_REPLACE_IMAGES=',json.dumps(image_refs,ensure_ascii=False,sort_keys=True))
+          # Search immutable catalog snapshots for exact identity and evidence-bearing image candidates.
+          candidates=[]
+          for p in sorted(root.glob('catalog.*.json')):
+            try: data=json.loads(p.read_text(encoding='utf-8'))
+            except Exception: continue
+            arr=data.get('dolls') or data.get('records') or [] if isinstance(data,dict) else []
+            for d in arr:
+              if str(d.get('officialCode') or '').upper()=='BOYS-311' or str(d.get('name') or '').casefold()=='$teezy'.casefold():
+                candidates.append((p.name,{k:d.get(k) for k in ['canonicalId','officialCode','name','collectionCode','seriesCode','releaseYear','rarity','club','officialImage','sourceRef','revision']}))
+          print('HISTORICAL_MATCHES=',len(candidates))
+          for p,d in candidates: print('HISTORICAL=',p,json.dumps(d,ensure_ascii=False,sort_keys=True))
+          # Fail closed: no mutation or guessed image. This audit only passes when current package has exact identity and a nonempty image reference.
+          ok_identity=len(hits)==1 and str(hits[0].get('officialCode') or '').upper()=='BOYS-311' and str(hits[0].get('name') or '').casefold()=='$teezy'.casefold()
+          img=(hits[0].get('officialImage') if hits else '') or ''
+          ok_image=bool(str(img).strip()) or bool(image_refs)
+          print('TEEZY_IDENTITY_OK=',ok_identity)
+          print('TEEZY_IMAGE_REFERENCE_OK=',ok_image)
+          if not ok_identity or not ok_image:
+            print('AUTOPILOT_RESULT=BLOCKED_SAFE_NO_GUESS')
+            sys.exit(2)
+          print('AUTOPILOT_RESULT=PASS')
