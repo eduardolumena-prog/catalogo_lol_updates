@@ -25824,11 +25824,636 @@
       ]
     }
   ],
-  "accessories": [],
-  "dollAccessories": [],
-  "relations": [],
-  "tags": [],
-  "dollTags": [],
+  "accessories": [
+    {
+      "officialCode": "SPRING-BLING-HOPS-BASKET",
+      "name": "Basket Accessory",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "officialCode": "SPRING-BLING-HOPS-HEADBAND",
+      "name": "Headband Accessory",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "officialCode": "SPRING-BLING-HOPS-OUTFIT",
+      "name": "Outfit",
+      "type": "outfit",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "officialCode": "SPRING-BLING-HOPS-SHOES",
+      "name": "Shoes",
+      "type": "shoes",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "officialCode": "FURNITURE-CANDO-COZY-COUPE",
+      "name": "Little Tikes Cozy Coupe",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ROADTRIP-CANDO"
+    },
+    {
+      "officialCode": "FURNITURE-CANDO-LIL-COZY-COUPE",
+      "name": "Lil Cozy Coupe",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ROADTRIP-CANDO"
+    },
+    {
+      "officialCode": "FURNITURE-CANDO-BUMPER-STICKERS",
+      "name": "Bumper Stickers",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ROADTRIP-CANDO"
+    },
+    {
+      "officialCode": "OOHLALA-LKQ-LIP-GLOSS-NECKLACE",
+      "name": "Color-change Lip Gloss Necklace",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN"
+    },
+    {
+      "officialCode": "OOHLALA-LKQ-CELL-PHONE",
+      "name": "Cracked Cell Phone",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN"
+    },
+    {
+      "officialCode": "OOHLALA-LKQ-PACIFIER",
+      "name": "Heart-shaped Pacifier",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN"
+    },
+    {
+      "officialCode": "OOHLALA-LKQ-GLASSES",
+      "name": "Glasses",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN"
+    },
+    {
+      "officialCode": "OOHLALA-LKQ-KITTY-PURSE",
+      "name": "Kitty Purse",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN"
+    },
+    {
+      "officialCode": "OOHLALA-LKQ-BOTTLE",
+      "name": "Bottle with Disappearing Glitter",
+      "type": "bottle",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN"
+    },
+    {
+      "officialCode": "FURNITURE-GRUNGE-STAGE",
+      "name": "Concert Stage",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE"
+    },
+    {
+      "officialCode": "FURNITURE-GRUNGE-AMP",
+      "name": "Music Amp",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE"
+    },
+    {
+      "officialCode": "FURNITURE-GRUNGE-GUITAR",
+      "name": "Guitar",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE"
+    },
+    {
+      "officialCode": "FURNITURE-GRUNGE-KEYTAR",
+      "name": "Keytar",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE"
+    },
+    {
+      "officialCode": "FURNITURE-GRUNGE-MIC",
+      "name": "Microphone",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE"
+    },
+    {
+      "officialCode": "FURNITURE-INDEPENDENT-VANITY",
+      "name": "Makeover Vanity",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-BACKSTAGE-INDEPENDENT"
+    },
+    {
+      "officialCode": "FURNITURE-INDEPENDENT-CHAIR",
+      "name": "Chair",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-BACKSTAGE-INDEPENDENT"
+    },
+    {
+      "officialCode": "FURNITURE-INDEPENDENT-MAKEUP",
+      "name": "Makeup Accessories",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-BACKSTAGE-INDEPENDENT"
+    },
+    {
+      "officialCode": "FURNITURE-MCSWAG-COZY",
+      "name": "Little Tikes Cozy Coupe",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-COZY-MCSWAG"
+    },
+    {
+      "officialCode": "FURNITURE-MCSWAG-LIL-COZY",
+      "name": "Lil Cozy Coupe",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-COZY-MCSWAG"
+    },
+    {
+      "officialCode": "FURNITURE-QUEENBEE-WARDROBE",
+      "name": "Glam Wardrobe",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-BOUTIQUE-QUEENBEE"
+    },
+    {
+      "officialCode": "FURNITURE-QUEENBEE-MIRROR",
+      "name": "Mirror",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-BOUTIQUE-QUEENBEE"
+    },
+    {
+      "officialCode": "FURNITURE-BONBON-CART",
+      "name": "Ice Cream Cart",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON"
+    },
+    {
+      "officialCode": "FURNITURE-BONBON-CHAIR",
+      "name": "Chair",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON"
+    },
+    {
+      "officialCode": "FURNITURE-BONBON-SCOOP",
+      "name": "Ice Cream Scoop",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON"
+    },
+    {
+      "officialCode": "FURNITURE-BONBON-ICECREAM-SET",
+      "name": "Three Ice Cream Accessories",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON"
+    },
+    {
+      "officialCode": "FURNITURE-DIVA-SALON-CHAIR",
+      "name": "Salon Chair",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-SALON-DIVA"
+    },
+    {
+      "officialCode": "FURNITURE-DIVA-VANITY",
+      "name": "Vanity",
+      "type": "playset-accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-SALON-DIVA"
+    },
+    {
+      "officialCode": "FURNITURE-DIVA-BEAUTY",
+      "name": "Beauty Accessories",
+      "type": "accessory",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-FURNITURE-SALON-DIVA"
+    },
+    {
+      "officialCode": "SPRING-BLING-HOPS-BOTTLE",
+      "name": "Bottle",
+      "type": "bottle",
+      "color": "",
+      "image": "",
+      "rarity": "",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    }
+  ],
+  "dollAccessories": [
+    {
+      "dollCode": "legacy:2-027",
+      "accessoryCode": "SPRING-BLING-HOPS-BASKET",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS",
+      "notes": "Official Spring Bling Hops product archive explicitly lists Basket Accessory."
+    },
+    {
+      "dollCode": "legacy:2-027",
+      "accessoryCode": "SPRING-BLING-HOPS-HEADBAND",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS",
+      "notes": "Official Spring Bling Hops product archive explicitly lists Headband Accessory."
+    },
+    {
+      "dollCode": "legacy:2-027",
+      "accessoryCode": "SPRING-BLING-HOPS-OUTFIT",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS",
+      "notes": "Official Spring Bling Hops product archive explicitly lists Outfit."
+    },
+    {
+      "dollCode": "legacy:2-027",
+      "accessoryCode": "SPRING-BLING-HOPS-SHOES",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS",
+      "notes": "Official Spring Bling Hops product archive explicitly lists Shoes."
+    },
+    {
+      "dollCode": "legacy:3-033",
+      "accessoryCode": "FURNITURE-CANDO-COZY-COUPE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ROADTRIP-CANDO",
+      "notes": "Official Can Do Baby furniture product archive explicitly includes Little Tikes Cozy Coupe."
+    },
+    {
+      "dollCode": "legacy:3-033",
+      "accessoryCode": "FURNITURE-CANDO-LIL-COZY-COUPE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ROADTRIP-CANDO",
+      "notes": "Official Can Do Baby furniture product archive explicitly includes Lil Cozy Coupe."
+    },
+    {
+      "dollCode": "legacy:3-033",
+      "accessoryCode": "FURNITURE-CANDO-BUMPER-STICKERS",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ROADTRIP-CANDO",
+      "notes": "Official Can Do Baby furniture product archive explicitly includes Bumper Stickers."
+    },
+    {
+      "dollCode": "legacy:2-041",
+      "accessoryCode": "OOHLALA-LKQ-LIP-GLOSS-NECKLACE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN",
+      "notes": "Official Lil Kitty Queen product archive explicitly identifies Color-change Lip Gloss Necklace."
+    },
+    {
+      "dollCode": "legacy:2-041",
+      "accessoryCode": "OOHLALA-LKQ-CELL-PHONE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN",
+      "notes": "Official Lil Kitty Queen product archive explicitly identifies Cracked Cell Phone."
+    },
+    {
+      "dollCode": "legacy:2-041",
+      "accessoryCode": "OOHLALA-LKQ-PACIFIER",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN",
+      "notes": "Official Lil Kitty Queen product archive explicitly identifies Heart-shaped Pacifier."
+    },
+    {
+      "dollCode": "legacy:2-041",
+      "accessoryCode": "OOHLALA-LKQ-GLASSES",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN",
+      "notes": "Official Lil Kitty Queen product archive explicitly identifies Glasses."
+    },
+    {
+      "dollCode": "legacy:2-041",
+      "accessoryCode": "OOHLALA-LKQ-KITTY-PURSE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN",
+      "notes": "Official Lil Kitty Queen product archive explicitly identifies Kitty Purse."
+    },
+    {
+      "dollCode": "legacy:2-041",
+      "accessoryCode": "OOHLALA-LKQ-BOTTLE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-OOHLALA-LIL-KITTY-QUEEN",
+      "notes": "Official Lil Kitty Queen product archive explicitly identifies Bottle with Disappearing Glitter."
+    },
+    {
+      "dollCode": "legacy:3-023",
+      "accessoryCode": "FURNITURE-GRUNGE-STAGE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE",
+      "notes": "Official Grunge Grrrl furniture product archive explicitly includes Concert Stage."
+    },
+    {
+      "dollCode": "legacy:3-023",
+      "accessoryCode": "FURNITURE-GRUNGE-AMP",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE",
+      "notes": "Official Grunge Grrrl furniture product archive explicitly includes Music Amp."
+    },
+    {
+      "dollCode": "legacy:3-023",
+      "accessoryCode": "FURNITURE-GRUNGE-GUITAR",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE",
+      "notes": "Official Grunge Grrrl furniture product archive explicitly includes Guitar."
+    },
+    {
+      "dollCode": "legacy:3-023",
+      "accessoryCode": "FURNITURE-GRUNGE-KEYTAR",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE",
+      "notes": "Official Grunge Grrrl furniture product archive explicitly includes Keytar."
+    },
+    {
+      "dollCode": "legacy:3-023",
+      "accessoryCode": "FURNITURE-GRUNGE-MIC",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-MUSIC-GRUNGE",
+      "notes": "Official Grunge Grrrl furniture product archive explicitly includes Microphone."
+    },
+    {
+      "dollCode": "legacy:3-003",
+      "accessoryCode": "FURNITURE-INDEPENDENT-VANITY",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-BACKSTAGE-INDEPENDENT",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:3-003",
+      "accessoryCode": "FURNITURE-INDEPENDENT-CHAIR",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-BACKSTAGE-INDEPENDENT",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:3-003",
+      "accessoryCode": "FURNITURE-INDEPENDENT-MAKEUP",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-BACKSTAGE-INDEPENDENT",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-013",
+      "accessoryCode": "FURNITURE-MCSWAG-COZY",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-COZY-MCSWAG",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-013",
+      "accessoryCode": "FURNITURE-MCSWAG-LIL-COZY",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-COZY-MCSWAG",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-003",
+      "accessoryCode": "FURNITURE-QUEENBEE-WARDROBE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-BOUTIQUE-QUEENBEE",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-003",
+      "accessoryCode": "FURNITURE-QUEENBEE-MIRROR",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-BOUTIQUE-QUEENBEE",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:2-021",
+      "accessoryCode": "FURNITURE-BONBON-CART",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:2-021",
+      "accessoryCode": "FURNITURE-BONBON-CHAIR",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:2-021",
+      "accessoryCode": "FURNITURE-BONBON-SCOOP",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:2-021",
+      "accessoryCode": "FURNITURE-BONBON-ICECREAM-SET",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-ICECREAM-BONBON",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-012",
+      "accessoryCode": "FURNITURE-DIVA-SALON-CHAIR",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-SALON-DIVA",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-012",
+      "accessoryCode": "FURNITURE-DIVA-VANITY",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-SALON-DIVA",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:1-012",
+      "accessoryCode": "FURNITURE-DIVA-BEAUTY",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-FURNITURE-SALON-DIVA",
+      "notes": "Official MGA character product archive explicitly identifies this included item."
+    },
+    {
+      "dollCode": "legacy:2-027",
+      "accessoryCode": "SPRING-BLING-HOPS-BOTTLE",
+      "quantity": 1,
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS",
+      "notes": "Official Spring Bling Hops product archive explicitly lists Bottle."
+    }
+  ],
+  "relations": [
+    {
+      "dollCode": "legacy:BOYS-207",
+      "relatedDollCode": "legacy:2-023",
+      "relationType": "brother/sister",
+      "sourceRef": "MGA-HP-BOYS-S2"
+    },
+    {
+      "dollCode": "legacy:BOYS-208",
+      "relatedDollCode": "CG-09:G-005",
+      "relationType": "brother/sister",
+      "sourceRef": "MGA-HP-BOYS-S2"
+    },
+    {
+      "dollCode": "legacy:1-011",
+      "relatedDollCode": "legacy:2-049",
+      "relationType": "family",
+      "sourceRef": "MGA-HP-S3-PETS-W2"
+    },
+    {
+      "dollCode": "legacy:1-011",
+      "relatedDollCode": "legacy:P-014",
+      "relationType": "doll/pet-family",
+      "sourceRef": "MGA-HP-S3-PETS-W2"
+    },
+    {
+      "dollCode": "legacy:2-049",
+      "relatedDollCode": "legacy:P-014",
+      "relationType": "lil-sister/pet-family",
+      "sourceRef": "MGA-HP-S3-PETS-W2"
+    },
+    {
+      "dollCode": "legacy:1-011",
+      "relatedDollCode": "legacy:3-024",
+      "relationType": "BFF-sweethearts",
+      "sourceRef": "MGA-BLOG-HOLIDAY-GIFTS-UNDER-10",
+      "notes": "MGA explicitly describes Rocker and Punk Boi as BFF Sweethearts. Canonicalized to the original Series 3 Punk Boi identity; the 2019 SP rerelease remains a distinct catalog identity."
+    }
+  ],
+  "tags": [
+    {
+      "name": "Sparkly",
+      "category": "finish",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "name": "Glitter Details",
+      "category": "finish",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "name": "Water Surprise",
+      "category": "feature",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "name": "Color Change",
+      "category": "water-feature",
+      "sourceRef": "MGA-HP-BOYS-S2"
+    },
+    {
+      "name": "Real Hair",
+      "category": "feature",
+      "sourceRef": "MGA-HP-HAIRGOALS"
+    },
+    {
+      "name": "Glitter Hair",
+      "category": "finish",
+      "sourceRef": "MGA-HP-SPARKLE"
+    }
+  ],
+  "dollTags": [
+    {
+      "dollCode": "legacy:2-027",
+      "tag": "Sparkly",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "dollCode": "legacy:2-027",
+      "tag": "Glitter Details",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "dollCode": "legacy:2-027",
+      "tag": "Water Surprise",
+      "sourceRef": "MGA-HP-SPRING-BLING-HOPS"
+    },
+    {
+      "dollCode": "legacy:WD-008",
+      "tag": "Water Surprise",
+      "sourceRef": "MGA-PRODUCT-HOLIDAY-PREZZIE"
+    },
+    {
+      "dollCode": "legacy:WD-008",
+      "tag": "Sparkly",
+      "sourceRef": "MGA-PRODUCT-HOLIDAY-PREZZIE"
+    }
+  ],
   "metadata": {
     "baseVersion": "5.3.6-global-final",
     "baseDollCount": 713,
@@ -25841,6 +26466,18 @@
       "dollsAssigned": 134,
       "unresolvedDolls": 0,
       "policy": "internal stable collection codes; not asserted as MGA official codes"
+    },
+    "phase70CertifiedEnrichment": {
+      "accessories": 33,
+      "dollAccessories": 33,
+      "relationsIntegrated": 6,
+      "externalRelationsExcluded": 16,
+      "tags": 6,
+      "dollTags": 5,
+      "sourcePhases": [
+        64,
+        65
+      ]
     }
   }
 }
