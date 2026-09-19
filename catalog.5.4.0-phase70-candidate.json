@@ -390,6 +390,72 @@
       "name": "SERIES2",
       "officialCode": "SERIES2",
       "releaseYear": 2017
+    },
+    {
+      "officialCode": "GM-COL-MOVIE-MAGIC",
+      "name": "GM-COL-MOVIE-MAGIC",
+      "description": "Internal catalog collection for Movie Magic; not asserted as an MGA official code.",
+      "isActive": true,
+      "metadata": {
+        "lineSeries": "Movie Magic",
+        "codePolicy": "internal-stable",
+        "origin": "phase70"
+      }
+    },
+    {
+      "officialCode": "GM-COL-DANCE-DANCE-DANCE",
+      "name": "GM-COL-DANCE-DANCE-DANCE",
+      "description": "Internal catalog collection for Dance Dance Dance; not asserted as an MGA official code.",
+      "isActive": true,
+      "metadata": {
+        "lineSeries": "Dance Dance Dance",
+        "codePolicy": "internal-stable",
+        "origin": "phase70"
+      }
+    },
+    {
+      "officialCode": "GM-COL-LIMITED-EDITION",
+      "name": "GM-COL-LIMITED-EDITION",
+      "description": "Internal catalog collection for Limited Edition; not asserted as an MGA official code.",
+      "isActive": true,
+      "metadata": {
+        "lineSeries": "Limited Edition",
+        "codePolicy": "internal-stable",
+        "origin": "phase70"
+      }
+    },
+    {
+      "officialCode": "GM-COL-TINY-TOYS",
+      "name": "GM-COL-TINY-TOYS",
+      "description": "Internal catalog collection for Tiny Toys; not asserted as an MGA official code.",
+      "isActive": true,
+      "metadata": {
+        "lineSeries": "Tiny Toys",
+        "codePolicy": "internal-stable",
+        "origin": "phase70"
+      }
+    },
+    {
+      "officialCode": "GM-COL-MINIS",
+      "name": "GM-COL-MINIS",
+      "description": "Internal catalog collection for Minis; not asserted as an MGA official code.",
+      "isActive": true,
+      "metadata": {
+        "lineSeries": "Minis",
+        "codePolicy": "internal-stable",
+        "origin": "phase70"
+      }
+    },
+    {
+      "officialCode": "GM-COL-COLOR-CHANGE",
+      "name": "GM-COL-COLOR-CHANGE",
+      "description": "Internal catalog collection for Color Change; not asserted as an MGA official code.",
+      "isActive": true,
+      "metadata": {
+        "lineSeries": "Color Change",
+        "codePolicy": "internal-stable",
+        "origin": "phase70"
+      }
     }
   ],
   "dolls": [
@@ -23199,7 +23265,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-002",
@@ -23214,7 +23281,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-003",
@@ -23229,7 +23297,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-004",
@@ -23244,7 +23313,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-005",
@@ -23259,7 +23329,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-006",
@@ -23274,7 +23345,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-007",
@@ -23289,7 +23361,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-008",
@@ -23304,7 +23377,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-009",
@@ -23319,7 +23393,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-010",
@@ -23334,7 +23409,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-011",
@@ -23349,7 +23425,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "MOVIE-MAGIC:MM-012",
@@ -23364,7 +23441,8 @@
         "characterType": "Tots",
         "lineSeries": "Movie Magic",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-MOVIE-MAGIC"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-001",
@@ -23379,7 +23457,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-002",
@@ -23394,7 +23473,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-003",
@@ -23409,7 +23489,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-004",
@@ -23424,7 +23505,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-005",
@@ -23439,7 +23521,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-006",
@@ -23454,7 +23537,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-007",
@@ -23469,7 +23553,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-008",
@@ -23484,7 +23569,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-009",
@@ -23499,7 +23585,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-010",
@@ -23514,7 +23601,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-011",
@@ -23529,7 +23617,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "DANCE-DANCE-DANCE:DO-012",
@@ -23544,7 +23633,8 @@
         "characterType": "Tots",
         "lineSeries": "Dance Dance Dance",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-DANCE-DANCE-DANCE"
     },
     {
       "canonicalId": "SURPRISE:S-001",
@@ -23557,7 +23647,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-002",
@@ -23570,7 +23661,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-007",
@@ -23583,7 +23675,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-050:CHICK-A-DEE",
@@ -23596,7 +23689,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-005",
@@ -23609,7 +23703,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-048:GOLDEN-B-B",
@@ -23622,7 +23717,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-010",
@@ -23635,7 +23731,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-023",
@@ -23648,7 +23745,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-026",
@@ -23661,7 +23759,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-044:SWITCH-B-B",
@@ -23674,7 +23773,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-013",
@@ -23687,7 +23787,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-019",
@@ -23700,7 +23801,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-022",
@@ -23713,7 +23815,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-029",
@@ -23726,7 +23829,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-047",
@@ -23739,7 +23843,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-015",
@@ -23752,7 +23857,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-017",
@@ -23765,7 +23871,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-021",
@@ -23778,7 +23885,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-020",
@@ -23791,7 +23899,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-003",
@@ -23804,7 +23913,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-005",
@@ -23817,7 +23927,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-055",
@@ -23830,7 +23941,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-038",
@@ -23843,7 +23955,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-040",
@@ -23856,7 +23969,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-053",
@@ -23869,7 +23983,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Tots"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-004",
@@ -23882,7 +23997,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-003",
@@ -23895,7 +24011,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-008",
@@ -23908,7 +24025,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-011",
@@ -23921,7 +24039,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-008",
@@ -23934,7 +24053,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-009",
@@ -23947,7 +24067,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-054",
@@ -23960,7 +24081,8 @@
         "characterType": "Lils",
         "lineSeries": "Limited Edition",
         "subdivision": "Lils"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-012",
@@ -23973,7 +24095,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-025",
@@ -23986,7 +24109,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-027",
@@ -23999,7 +24123,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-009",
@@ -24012,7 +24137,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-014",
@@ -24025,7 +24151,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-049:GOLDEN-OX",
@@ -24038,7 +24165,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-018",
@@ -24051,7 +24179,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-016",
@@ -24064,7 +24193,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-011",
@@ -24077,7 +24207,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-012",
@@ -24090,7 +24221,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-013",
@@ -24103,7 +24235,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-014",
@@ -24116,7 +24249,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-039",
@@ -24129,7 +24263,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-041",
@@ -24142,7 +24277,8 @@
         "characterType": "Pets",
         "lineSeries": "Limited Edition",
         "subdivision": "Pets"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-024",
@@ -24155,7 +24291,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-028",
@@ -24168,7 +24305,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-043:GLITCH",
@@ -24181,7 +24319,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-004",
@@ -24194,7 +24333,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-007",
@@ -24207,7 +24347,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:A-010",
@@ -24220,7 +24361,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-034",
@@ -24233,7 +24375,8 @@
         "characterType": "Boys",
         "lineSeries": "Limited Edition",
         "subdivision": "Boys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-007",
@@ -24246,7 +24389,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Limited Edition",
         "subdivision": "Tiny Toys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-008",
@@ -24259,7 +24403,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Limited Edition",
         "subdivision": "Tiny Toys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-009",
@@ -24272,7 +24417,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Limited Edition",
         "subdivision": "Tiny Toys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-010",
@@ -24285,7 +24431,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Limited Edition",
         "subdivision": "Tiny Toys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-011",
@@ -24298,7 +24445,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Limited Edition",
         "subdivision": "Tiny Toys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-012",
@@ -24311,7 +24459,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Limited Edition",
         "subdivision": "Tiny Toys"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-044:BEB-BONITA",
@@ -24324,7 +24473,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Recurring"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-005",
@@ -24337,7 +24487,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Recurring"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "HOLIDAY:HS-006",
@@ -24350,7 +24501,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Recurring"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-030",
@@ -24363,7 +24515,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Spooky Sparkle"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-058",
@@ -24376,7 +24529,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Year of the Tiger"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-059",
@@ -24389,7 +24543,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Year of the Tiger"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-060",
@@ -24402,7 +24557,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Spring Bling 2022"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-061",
@@ -24415,7 +24571,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Spring Bling 2022"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-062",
@@ -24428,7 +24585,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Earth Love"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "SURPRISE:S-063",
@@ -24441,7 +24599,8 @@
         "characterType": "Tots",
         "lineSeries": "Limited Edition",
         "subdivision": "Earth Love"
-      }
+      },
+      "collectionCode": "GM-COL-LIMITED-EDITION"
     },
     {
       "canonicalId": "TINY-TOYS:TT-001",
@@ -24455,7 +24614,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-002",
@@ -24469,7 +24629,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-003",
@@ -24483,7 +24644,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-004",
@@ -24497,7 +24659,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-005",
@@ -24511,7 +24674,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-006",
@@ -24525,7 +24689,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-007",
@@ -24539,7 +24704,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-008",
@@ -24553,7 +24719,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-009",
@@ -24567,7 +24734,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-010",
@@ -24581,7 +24749,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-011",
@@ -24595,7 +24764,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-012",
@@ -24609,7 +24779,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-013",
@@ -24623,7 +24794,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-014",
@@ -24637,7 +24809,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "TINY-TOYS:TT-015",
@@ -24651,7 +24824,8 @@
         "characterType": "Tiny Toys",
         "lineSeries": "Tiny Toys",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-TINY-TOYS"
     },
     {
       "canonicalId": "MINIS:S1-01",
@@ -24665,7 +24839,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-02",
@@ -24679,7 +24854,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-03",
@@ -24693,7 +24869,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-04",
@@ -24707,7 +24884,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-05",
@@ -24721,7 +24899,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-06",
@@ -24735,7 +24914,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-07",
@@ -24749,7 +24929,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-08",
@@ -24763,7 +24944,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-09",
@@ -24777,7 +24959,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-10",
@@ -24791,7 +24974,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-11",
@@ -24805,7 +24989,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-12",
@@ -24819,7 +25004,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-13",
@@ -24833,7 +25019,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-14",
@@ -24847,7 +25034,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-15",
@@ -24861,7 +25049,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-16",
@@ -24875,7 +25064,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-17",
@@ -24889,7 +25079,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "MINIS:S1-18",
@@ -24903,7 +25094,8 @@
         "characterType": "Minis",
         "lineSeries": "Minis",
         "subdivision": "Series 1"
-      }
+      },
+      "collectionCode": "GM-COL-MINIS"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-126",
@@ -24917,7 +25109,8 @@
         "characterType": "Lils",
         "lineSeries": "Color Change",
         "subdivision": "Lil Sisters"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-132",
@@ -24931,7 +25124,8 @@
         "characterType": "Lils",
         "lineSeries": "Color Change",
         "subdivision": "Lil Sisters"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-134",
@@ -24945,7 +25139,8 @@
         "characterType": "Lils",
         "lineSeries": "Color Change",
         "subdivision": "Lil Sisters"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-224",
@@ -24959,7 +25154,8 @@
         "characterType": "Pets",
         "lineSeries": "Color Change",
         "subdivision": "Glitter Pets"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-143",
@@ -24973,7 +25169,8 @@
         "characterType": "Boys",
         "lineSeries": "Color Change",
         "subdivision": "Me & Bro"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-145",
@@ -24987,7 +25184,8 @@
         "characterType": "Boys",
         "lineSeries": "Color Change",
         "subdivision": "Me & Bro"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:CC-147",
@@ -25001,7 +25199,8 @@
         "characterType": "Boys",
         "lineSeries": "Color Change",
         "subdivision": "Me & Bro"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     },
     {
       "canonicalId": "COLOR-CHANGE:GLITTER-PEARL:LIL-TREASURE",
@@ -25015,7 +25214,8 @@
         "characterType": "Lils",
         "lineSeries": "Color Change",
         "subdivision": "Glitter Pearl Surprise"
-      }
+      },
+      "collectionCode": "GM-COL-COLOR-CHANGE"
     }
   ],
   "format": "lol-catalog-update-v1",
@@ -25635,6 +25835,12 @@
     "phase70DeltaCount": 138,
     "canonicalIdCount": 851,
     "dollCount": 851,
-    "phase70Status": "CANDIDATE_NOT_PUBLISHED"
+    "phase70Status": "CANDIDATE_NOT_PUBLISHED",
+    "phase70CollectionResolution": {
+      "internalCollectionsAdded": 6,
+      "dollsAssigned": 134,
+      "unresolvedDolls": 0,
+      "policy": "internal stable collection codes; not asserted as MGA official codes"
+    }
   }
 }
