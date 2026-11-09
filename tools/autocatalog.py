@@ -31,9 +31,9 @@ OUT_CANDIDATES = ROOT / "autocatalog" / "candidates.json"
 
 # Solo series ya presentes en la base certificada; jamás inventar códigos.
 PATTERNS = (
-    (re.compile(r"^LOL Surprise OMG Music Festival Featuring\\s+(.+?)\\s+[–-]\\s+Fashion Doll", re.I),
+    (re.compile(r"^LOL Surprise OMG Music Festival Featuring\s+(.+?)\s+[–-]\s+Fashion Doll", re.I),
      "GM-COL-MUSIC-FESTIVAL", "GM-SER-MUSIC-FESTIVAL-OMG"),
-    (re.compile(r"^LOL Surprise OMG Loves Hello Kitty.*?\\s+[–-]\\s+([^–-]+?)\\s*$", re.I),
+    (re.compile(r"^LOL Surprise OMG Loves Hello Kitty.*?\s+[–-]\s+([^–-]+?)\s*$", re.I),
      "GM-COL-HELLO-KITTY", "GM-SER-HELLO-KITTY-OMG"),
 )
 REJECT = re.compile(r"plush|house|playset|blind|surprise ball|assort|pack|furniture|calendar|bus|camper|car-pool", re.I)
@@ -234,7 +234,7 @@ def reconcile(products: list[dict], catalog: dict) -> tuple[list[dict], list[dic
 
 
 def next_version(previous: str) -> str:
-    match = re.match(r"^(\\d+)\\.(\\d+)\\.(\\d+)", previous)
+    match = re.match(r"^(\d+)\.(\d+)\.(\d+)", previous)
     if not match:
         raise ValueError("Unexpected manifest version")
     major, minor, patch = map(int, match.groups())
