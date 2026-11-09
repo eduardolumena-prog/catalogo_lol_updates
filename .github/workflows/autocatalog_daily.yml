@@ -1,0 +1,48 @@
+name: ELM AutoCatalog - descubrimiento oficial diario
+
+# SOLO se programa cuando este archivo se integre en main.
+# Esta rama de revisión no dispara Actions.
+on:
+  schedule:
+    - cron: '17 09 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: elm-autocatalog-publisher
+  cancel-in-progress: false
+
+jobs:
+  discover-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify offline data contracts
+        run: python -m unittest discover -s tests -p 'test_autocatalog.py' -v
+      - name: Discover official MGA products and publish verified individual dolls
+        run: python tools/autocatalog.py --publish
+      - name: Commit only catalog metadata and validated package
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- autocatalog/candidates.json manifest.json packages/
+          for file in catalog.*-global-auto.json; do
+            if [ -f "$file" ]; then git add -- "$file"; fi
+          done
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo 'No catalog changes.'
+            exit 0
+          fi
+          git commit -m 'AutoCatalog: official MGA discovery and safe catalog update'
+          git push origin HEAD:main
